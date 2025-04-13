@@ -1,0 +1,5 @@
+Üst menü sayfa ile birlikte sabit kalacak
+blog ön sayfası
+blog detay sayfası
+PDF katalog eklemesi
+Flip Book araştırması yapılacak
