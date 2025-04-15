@@ -27,7 +27,7 @@
   <div id="main-wrapper" class="main-wrapper overflow-hidden">
 
     <!-- Header Area Start -->
-    <header class="header">
+    <header class="header" style="position: fixed; z-index: 9999;">
       <div class="container">
         <nav class="navbar upper d-flex">
           <a class="navbar-brand d-lg-none" href="index-tr.html">
@@ -38,12 +38,12 @@
               <ul class="navbar-nav mainmenu m-0">
 
                 <li class="menu-item-has-children">
-                  <h6><a href="index-tr.html" >Ana Sayfa</a></h6>
-                  <ul class="submenu">
-                    <!-- <li><a href="index.html" class="active">Home 1</a></li>
-                    <li><a href="index-3.html">Home 2</a></li> -->
+                  <h6><a href="index-tr.html" class="active">Ana Sayfa</a></h6>
+                  <!-- <ul class="submenu">
+                    <li><a href="index.html" class="active">Home 1</a></li>
+                    <li><a href="index-3.html">Home 2</a></li>
 
-                  </ul>
+                  </ul> -->
                 </li>
                 <!-- <li class="menu-item-has-children">
                   <h6><a href="javascript:void(0);">Services</a></h6>
@@ -59,7 +59,7 @@
                 <!-- <li class="menu-item-has-children">
                   <h6><a href="javascript:void(0);">Shop</a></h6>
                   <ul class="submenu">
-                    <li><a href="shop_list-1.html">Shop List 1</a></li>
+                    <li><a href="#">Shop List 1</a></li>
                     <li><a href="shop_list-2.html">Shop List 2</a></li>
                     <li><a href="shop_list-3.html">Shop List 3</a></li>
                     <li><a href="shop_list-4.html">Shop List 4</a></li>
@@ -76,7 +76,7 @@
                 <li class="menu-item-has-children">
                   <h6><a href="javascript:void(0);">Blog</a></h6>
                   <ul class="submenu">
-                    <li><a href="blogs.html">Blog 1</a></li>
+                    <li><a href="blogs-en.html">Blog 1</a></li>
                     <li><a href="blog-2.html">Blog 2</a></li>
                     <li><a href="blog-3.html">Blog 3</a></li>
                     <li><a href="blog-4.html">Blog 4</a></li>
@@ -84,17 +84,36 @@
                   </ul>
                 </li> -->
                 <li class="menu-item-has-children">
-                  <h6><a href="about-tr.html">Hakkımızda</a></h6>
+                  <h6><a href="about-tr.html">Hakkımızda</a></h6></li>
                 <li class="menu-item-has-children">
-                  <h6><a href="contact-tr.html" class="active">İletişim</a></h6>
-                <li class="menu-item-has-children" >
-                  <h6><a href="login-tr.html" >Giriş</a></h6>
+                  <h6><a href="#">Ürünlerimiz</a></h6>
+                  <ul class="submenu">
+                    <li><a href="product-design-mix-tr.html">DesignMix</a></li>
+                    <li><a href="#">UVLak</a></li>
+                    <li><a href="#">Lami </a></li>
+
+                  </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <h6><a href="#">Kolleksiyonlar</a></h6>
+                    <ul class="submenu">
+                      <li><a href="product-marbles-tr.html">Mermer</a></li>
+                      <li><a href="#">Taş</a></li>
+                      <li><a href="#">Tahta</a></li>
+  
+                    </ul>
+                    </li>
                 <li class="menu-item-has-children">
-                  <h6><a href="404.html">404</a></h6>
-                  
+                  <h6><a href="contact-tr.html">İletişim</a></h6></li>
+
+                <!-- <li class="menu-item-has-children">
+                  <h6><a href="login-tr.html">Giriş</a></h6></li>
+                <li class="menu-item-has-children">
+                  <h6><a href="404.html">404</a></h6></li> -->
+
                   <!-- <ul class="submenu">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about-en.html">About</a></li>
+                    <li><a href="contact-en.html">Contact</a></li>
                     <li><a href="team-1.html">Team 1</a></li>
                     <li><a href="team-2.html">Team 2</a></li>
                     <li><a href="team-detail.html">Team Detail</a></li>
@@ -111,20 +130,31 @@
               <i class="fal fa-bars"></i>
             </button>
           </nav>
-          <a class="navbar-brand d-lg-block d-none" href="index-tr.html"><img alt=""
-              src="assets/media/5k_logo.png"></a>
+          <a class="navbar-brand d-lg-block d-none" href="index-tr.html"><img alt="" src="assets/media/5k_logo.png"></a>
           <div class="right-content d-lg-flex d-none">
             <ul class="unstyled d-xl-flex d-none">
-              <li>
+              <!-- <!-- <li>
                 <a href="#" class="main-menu__search search-toggler">
                   <i class="fal fa-search"></i></a>
               </li>
-              <li><a href="#"><i class="fal fa-shopping-cart"></i></a></li>
+              <li><a href="#"><i class="fal fa-shopping-cart"></i></a></li> -->
+              <li>
+                <a href="#" class="main-menu__search search-toggler">
+                  <i  >&nbsp;</i></a>
+              </li>
+              <li><a href="#"><i  >&nbsp;</i></a></li>
+              <li>
+                <a href="#" class="main-menu__search search-toggler">
+                  <i  >&nbsp;</i></a>
+              </li>
+              <li><a href="#"><i  >&nbsp;</i></a></li>
             </ul>
             <ul class="unstyled">
-              <li><a href="#" class="cus-btn small-pad h6">Giriş Yap
+              <!-- <!-- <li><a href="#" class="cus-btn small-pad h6">Giriş Yap
                 </a></li>
-              <li><a href="#" class="cus-btn-2 small-pad h6">Kayıt Ol</a></li>
+              <li><a href="#" class="cus-btn-2 small-pad h6">Kayıt Ol</a></li> -->
+              <li><a href="index.html" class="cus-btn-2 small-pad h6">EN</a></li>
+              <li><a href="index-tr.html" class="cus-btn-2 small-pad h6">TR</a></li>
             </ul>
           </div>
         </nav>
@@ -141,7 +171,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-7 col-lg-7 mb-lg-0 mb-48">
-            <form method="post" action="//contact.html" class="form-group contact-form">
+            <form method="post" action="//contact-en.html" class="form-group contact-form">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="icon-block mb-24">
@@ -229,11 +259,13 @@
         <div class="row">
           <div class="col-xl-3 col-lg-4 col-md-6 mb-lg-0 mb-48">
             <a href="#"><img src="assets/media/5k_logo.png" alt="" class="mb-16"></a>
-            <p class="gray mb-48">5K Yüzey Teknolojileri, sürekli yeni ve yenilikçi çözümler geliştiren lider bir firmadır.</p>
+            <p class="gray mb-48">5K Yüzey Teknolojileri, sürekli yeni ve yenilikçi çözümler geliştiren lider bir
+              firmadır.</p>
             <div class="details mb-48">
               <h5 class="light-black mb-16">İletişim</h5>
               <ul class="unstyled">
-                <li class="mb-24"><i class="fal fa-map-marker-alt"></i>Güzelhisar Mah. Yıldırım Beyazıt Cad. No:9 Akyurt <br>Ankara/Türkiye</li>
+                <li class="mb-24"><i class="fal fa-map-marker-alt"></i>Güzelhisar Mah. Yıldırım Beyazıt Cad. No:9
+                  Akyurt <br>Ankara/Türkiye</li>
                 <li class="mb-24"><i class="fal fa-envelope"></i><a href="#">info@5k.com.tr</a></li>
                 <li><i class="fal fa-phone-alt"></i>0312 847 5584</li>
               </ul>
@@ -252,32 +284,35 @@
             <h5 class="light-black mb-24">Popüler Bloglar</h5>
             <div class="article-block mb-24">
               <div class="article-img-box">
-                <a href="blog-detail-tr.html"><img src="assets/media/blog/ft-blog-1.png" alt="" class="article-img"></a>
+                <a href="blog-detail-tr.html"><img src="assets/media/blog/ft-blog-1.png" alt=""
+                    class="article-img"></a>
               </div>
               <div class="article-content">
-                <h6 class="light-black mb-8"><a href="blog-detail-tr.html">Minimalist Musings: Simplifying Spaces</a></h6>
-                <h6 class="gray">11 October 2024</h6>
+                <h6 class="light-black mb-8"><a href="blog-detail-tr.html">Lorem ipsum dolor sit amet consectetur.</a>
+                </h6>
+                <h6 class="gray">11 Ocak 2024</h6>
               </div>
             </div>
             <div class="article-block mb-24">
               <div class="article-img-box">
-                <a href="blog-detail-tr.html"><img src="assets/media/blog/ft-blog-2.png" alt="" class="article-img"></a>
+                <a href="blog-detail-tr.html"><img src="assets/media/blog/ft-blog-2.png" alt=""
+                    class="article-img"></a>
               </div>
               <div class="article-content">
-                <h6 class="light-black mb-8"><a href="blog-detail-tr.html">Cosy Corners Digest: Comfortable Living Tips</a>
+                <h6 class="light-black mb-8"><a href="blog-detail-tr.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
                 </h6>
-                <h6 class="gray">12 October 2024</h6>
+                <h6 class="gray">12 Ocak 2024</h6>
               </div>
             </div>
             <div class="article-block mb-60">
               <div class="article-img-box">
-                <a href="blog-detail-tr.html"><img src="assets/media/blog/ft-blog-3.png" alt="" class="article-img"></a>
+                <a href="blog-detail-tr.html"><img src="assets/media/blog/ft-blog-3.png" alt=""
+                    class="article-img"></a>
               </div>
               <div class="article-content">
-                <h6 class="light-black mb-8"><a href="blog-detail-tr.html">Bohemian Rhapsody: Free-Spirited Décor
-                    Musings</a>
+                <h6 class="light-black mb-8"><a href="blog-detail-tr.html">Lorem ipsum dolor sit amet consectetur.</a>
                 </h6>
-                <h6 class="gray">15 October 2024</h6>
+                <h6 class="gray">15 Ocak 2024</h6>
               </div>
             </div>
             <p class="light-black">© 2025 5k.com.tr, All rights reserved</p>
@@ -292,7 +327,7 @@
                     <li class="mb-24"><a href="about-tr.html">Hakımızda</a></li>
                     <li class="mb-24"><a href="contact-tr.html">İletişim</a></li>
                     <!-- <li class="mb-24"><a href="services-1.html">Hizmetlerimiz</a></li> -->
-                    <!-- <li class="mb-24"><a href="shop_list-1.html">Mağaza</a></li> -->
+                    <!-- <li class="mb-24"><a href="#">Mağaza</a></li> -->
                   </ul>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
@@ -304,12 +339,12 @@
               </div>
             </div>
             <!-- <div class="news-letter mt-32">
-              <h5 class="light-black mb-16">Subscribe to Our Newsletter</h5>
-              <form action="" method="post" class="form-group contact-from">
-                <input type="email" class="form-control" placeholder="email@mail.com" name="email">
-                <button type="submit"><i class="fal fa-paper-plane"></i></button>
-              </form>
-            </div> -->
+            <h5 class="light-black mb-16">Subscribe to Our Newsletter</h5>
+            <form action="" method="post" class="form-group contact-from">
+              <input type="email" class="form-control" placeholder="email@mail.com" name="email">
+              <button type="submit"><i class="fal fa-paper-plane"></i></button>
+            </form>
+          </div> -->
           </div>
         </div>
       </div>
@@ -331,46 +366,46 @@
   </div>
 
   <!-- Modal -->
-  <div class="modal fade" id="productQuickView" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-   aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title fs-5 h1 light-black fw-500" id="staticBackdropLabel">Comfy Wooden Chair</h2>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="product-list-3">
-          <div class="shop-block mb-24 text-center">
-            <div class="img-box">
-              <a href="product-detail.html"><img src="assets/media/products/product-1.png" alt=""
-                  class="mb-md-0 mb-16"></a>
+  <!-- <div class="modal fade" id="productQuickView" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+ aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 class="modal-title fs-5 h1 light-black fw-500" id="staticBackdropLabel">Comfy Wooden Chair</h2>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="product-list-3">
+        <div class="shop-block mb-24 text-center">
+          <div class="img-box">
+            <a href="product-detail.html"><img src="assets/media/products/product-1.png" alt=""
+                class="mb-md-0 mb-16"></a>
+          </div>
+          <div class="">
+            <div class="price v-2">
+              <h5 class="light-black mt-4 mb-2"><a href="product-detail.html">Comfy Wooden Chair</a></h5>
+              <h5 class="light-black">$400.00</h5>
             </div>
-            <div class="">
-              <div class="price v-2">
-                <h5 class="light-black mt-4 mb-2"><a href="product-detail.html">Comfy Wooden Chair</a></h5>
-                <h5 class="light-black">$400.00</h5>
-              </div>
-              <div class="rating-star mb-16">
-                <i class="fas fa-star color-primary"></i>
-                <i class="fas fa-star color-primary"></i>
-                <i class="fas fa-star color-primary"></i>
-                <i class="fas fa-star color-primary"></i>
-                <i class="fas fa-star color-primary"></i>
-              </div>
-              <hr class="bg-sec-gray mb-16 d-md-flex d-none">
-              <h6 class="light-black mb-16">Material: <span class="gray">Wood</span></h6>
-              <h6 class="light-black mb-16">Weight: <span class="gray">5 Kg</span></h6>
-              <h6 class="light-black mb-16">Dimension: <span class="gray">02 x 02 ft</span></h6>
-              <a href="cart.html" class="cus-btn small-pad">Add to Cart</a>
-              <a href="checkout.html" class="cus-btn-2 small-pad">Buy Now</a>
+            <div class="rating-star mb-16">
+              <i class="fas fa-star color-primary"></i>
+              <i class="fas fa-star color-primary"></i>
+              <i class="fas fa-star color-primary"></i>
+              <i class="fas fa-star color-primary"></i>
+              <i class="fas fa-star color-primary"></i>
             </div>
+            <hr class="bg-sec-gray mb-16 d-md-flex d-none">
+            <h6 class="light-black mb-16">Material: <span class="gray">Wood</span></h6>
+            <h6 class="light-black mb-16">Weight: <span class="gray">5 Kg</span></h6>
+            <h6 class="light-black mb-16">Dimension: <span class="gray">02 x 02 ft</span></h6>
+            <a href="cart.html" class="cus-btn small-pad">Add to Cart</a>
+            <a href="checkout.html" class="cus-btn-2 small-pad">Buy Now</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
+</div>
+</div> -->
   <!-- Jquery Js -->
   <script src="assets/js/vendor/jquery-3.6.3.min.js"></script>
   <script src="assets/js/vendor/bootstrap.min.js"></script>

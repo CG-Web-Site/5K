@@ -1,5 +1,18 @@
-Üst menü sayfa ile birlikte sabit kalacak
-blog ön sayfası
-blog detay sayfası
+++ Üst menü sayfa ile birlikte sabit kalacak
+++ blog ön sayfası
+++ blog detay sayfası
 PDF katalog eklemesi
 Flip Book araştırması yapılacak
+
+-- Ürünlerimiz ve Kolleksiyonlar olarak 2 üstmenü sekmesi eklendi onaya sunulcak
+-- Alternatifli olarak (1/2/3) "ürünlerimiz / DesignMix" sayfası oluşturuldu onay sonrası diğer sayfalar da eklenicek
+-- "kolleksiyonlar / Mermer" sayfası oluşturuldu onay sonrası diğer sayfalar da eklenicek
+-- 6 adet LAMİ listesi hangi üstmenü sekmesi altına eklenicek veya nereye eklenmek isteniyo ?
+-- site haritası kısmında misyon/vizyon eklenmiş ama istenmiyo ? yeni site haritası mı oluşcak ?
+-- WOOD 
+    -kapı panelleri
+    -paneller 
+    -marküteri 
+   alt başilıkları için hiçbir bilgi yok ?
+-- verilen resimlerin hangi lami grubuna dahil olduğu nasıl anlaşılacak ?
+-- "Ürünler/Craft " alt başlığı için hiç bir bilgi yok ?
