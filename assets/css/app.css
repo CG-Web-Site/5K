@@ -1704,6 +1704,20 @@ Elements
   transform: scale(2) rotate(180deg);
   background: #FFFBFA;
 }
+.cus-btn-2.medium-pad {
+  padding: 16px 24px;
+}
+.cus-btn-2.medium-pad.white-btn {
+  color: #FFFBFA;
+  border: 1px solid #FFFBFA;
+}
+.cus-btn-2.medium-pad.white-btn:hover {
+  color: #282525;
+}
+.cus-btn-2.medium-pad.white-btn:hover::after {
+  transform: scale(2) rotate(180deg);
+  background: #FFFBFA;
+}
 .cus-btn-2::after {
   position: absolute;
   content: " ";
