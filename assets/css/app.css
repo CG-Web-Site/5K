@@ -2143,6 +2143,10 @@ input[type=radio]:checked {
   height: auto;
   border-bottom: 1px solid #282525;
 }
+.header .d-lg-block img{
+  min-width:334px;
+  max-width:100%;
+ }
 @media (max-width: 991px) {
   .header {
     height: 80px;
